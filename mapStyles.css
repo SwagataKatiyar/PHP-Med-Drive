@@ -1,0 +1,38 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.pickup .mapboxgl-popup-close-button{
+     display: none;
+}
+
+.dropoff .mapboxgl-popup-close-button{
+     display: none;
+}
+.pickup .mapboxgl-popup-content{
+     background-color: #182C61;
+     border-radius: 10px;
+     color: white;
+     font-size: large;
+     padding: 10px;
+     box-shadow: 5px 4px 4px #8B5D33;
+     border-color: #228B22;
+     max-width: 250px;
+     font-family: 'Oswald';
+}
+
+.dropoff .mapboxgl-popup-content{
+     background-color: #6D214F;
+     border-radius: 10px;
+     color: white;
+     font-size: large;
+     padding: 10px;
+     box-shadow: 5px 4px 4px #8B5D33;
+     border-color: #228B22;
+     max-width: 250px;
+     font-family: 'Oswald';
+
+}
+
